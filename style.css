@@ -1,0 +1,130 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz {
+  background-color: white;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  padding: 30px;
+  width: 70%;
+  max-width: 600px;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#question-number {
+  color: #007bff;
+  font-weight: bold;
+}
+
+#question {
+  margin: 10px 0 20px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.option {
+  color: #0056b3;
+  border: 2px solid #0056b3;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  padding-inline: 1rem;
+  transition: background-color 0.3s;
+}
+.option:hover {
+  background-color: #7dbafc;
+}
+#prev,
+#next {
+  background-color: white;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 12px 20px;
+  border-radius: 15px;
+  margin: 5px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#prev:hover,
+#next:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+#reset {
+  background-color: white;
+  border: 2px solid red;
+  color: red;
+  padding: 12px 20px;
+  border-radius: 15px;
+  margin: 5px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#reset:hover {
+  background-color: red;
+  color: white;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.selected {
+  background-color: #4caf50;
+  color: white;
+  border: 2px solid #388e3c;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+#timer {
+  background-color: white;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+#submit {
+  background-color: white;
+  border: 2px solid green;
+  color: green;
+  padding: 12px 20px;
+  border-radius: 15px;
+  margin: 5px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#submit:hover {
+  background-color: green;
+  color: white;
+}
