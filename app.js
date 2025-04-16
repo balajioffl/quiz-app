@@ -105,6 +105,7 @@ function display(index) {
 
       if (index === question.answer) {
         answer = answer + 1;
+        index = 0;
         console.log("score = ", answer);
         localStorage.setItem("score", answer);
       }
